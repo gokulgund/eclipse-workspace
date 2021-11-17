@@ -13,11 +13,11 @@ public class App
     public static void main(String[] args )
     {
 		String message = "Hello, World";
-		LOG.debug(message + "  Will Be Printed On Debug");
-		LOG.info(message +   "   Will Be Printed On Info");
-		LOG.warn(message +   "   Will Be Printed On Warn");
-		LOG.error(message +   "   Will Be Printed On Error");
-		LOG.fatal(message +   "   Will Be Printed On Fatal");
+		LOG.debug(message + "  Will Be Printed On Debug Level");
+		LOG.info(message +   "   Will Be Printed On Info Level");
+		LOG.warn(message +   "   Will Be Printed On Warn Level");
+		LOG.error(message +   "   Will Be Printed On Error Level");
+		LOG.fatal(message +   "   Will Be Printed On Fatal Level");
 		LOG.info("Appending String: {}." , message);
         System.out.println( message );
     }
